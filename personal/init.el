@@ -6,3 +6,5 @@
 
 ;; TODO auto-install my packages...
 ;; (prelude-require-package '(git-gutter))
+
+(defin-key list-mode-shared-map (kbd "RET") 'reindent-then-newline-and-indent)
